@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drone & Robotics Workshops</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products & Services</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Welcome to Drone & Robotics Workshops</h1>
+    <p>Your one-stop shop for innovative drone workshops, robotics bootcamps, and parts sales.</p>
+  </header>
+
+  <section>
+    <h2>Our Featured Workshops</h2>
+    <div class="workshops">
+      <div class="workshop-card">
+        <h3>Drone Workshops</h3>
+        <p>Learn to build and fly drones.</p>
+      </div>
+      <div class="workshop-card">
+        <h3>Robotics Workshop</h3>
+        <p>Hands-on robotics projects.</p>
+      </div>
+      <div class="workshop-card">
+        <h3>Robotics Bootcamp</h3>
+        <p>Intensive training for robotics enthusiasts.</p>
+      </div>
+      <div class="workshop-card">
+        <h3>Project Drones Creation</h3>
+        <p>Create innovative drone projects.</p>
+      </div>
+      <div class="workshop-card">
+        <h3>FPV Drones Creation</h3>
+        <p>Build and race FPV drones.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Drone & Robotics Workshops. All rights reserved.</p>
+  </footer>
+</body>
+</html>
