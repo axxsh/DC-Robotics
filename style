@@ -1,0 +1,75 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header, main, footer {
+  padding: 2em;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+.workshops {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workshop-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin: 1em;
+  width: calc(33% - 2em);
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-top: 1em;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.75em 1.5em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
